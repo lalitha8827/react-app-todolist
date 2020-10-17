@@ -1,0 +1,41 @@
+body{
+  background-color:#82CFD5;
+}
+
+.App{
+  background-color: seagreen;
+  height:600px;
+  width:500px;
+  margin:50px auto;
+}
+#form input{
+  background-color:peru;
+  height:50px;
+  width:250px;
+  padding:0 20px;
+  margin:20px;
+  border:0;
+  font-size:20px;
+  border-radius:10px;
+  color:white;
+}
+#form input::placeholder{
+  color:white;
+}
+#form input:focus{
+  outline:none;
+}
+#form button:focus{
+  outline:none;
+}
+#form button{
+  height:50px;
+  width:80px;
+  border-radius:6px;
+  border:0;
+  background-color:yellowgreen;
+  font-weight:bolder;
+  color:white;
+  cursor:pointer;
+  font-size:20px;
+}
